@@ -9,3 +9,49 @@ spring.log
 
 # Visual Studio Code
 .vscode/
+
+# Maven specific files
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Spring Boot configuration
+.env
+
+# Database files (H2 & PostgreSQL)
+*.db
+*.mv.db
+*.h2.db
+*.trace.db
+
+# Node specific (if frontend exists inside repo)
+node_modules/
+
+# JUnit & Test reports
+test-output/
+surefire-reports/
+
+# Docker & Kubernetes files
+*.dockerfile
+docker-compose.override.yml
+
+# Miscellaneous
+*.bak
+*.tmp
+*.pid
