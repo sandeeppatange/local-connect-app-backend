@@ -1,8 +1,8 @@
-package com.example.bustimingapp.controller;
+package com.lca.bussearch.controller;
 
 import org.springframework.web.bind.annotation.*;
-import com.example.bustimingapp.repository.ScheduleRepository;
-import com.example.bustimingapp.entity.Schedule;
+import com.lca.bussearch.repository.ScheduleRepository;
+import com.lca.bussearch.entity.Schedule;
 
 import java.util.List;
 

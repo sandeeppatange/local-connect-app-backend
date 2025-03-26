@@ -1,4 +1,4 @@
-package com.example.bustimingapp.entity;
+package com.lca.bussearch.entity;
 
 import jakarta.persistence.*;
 

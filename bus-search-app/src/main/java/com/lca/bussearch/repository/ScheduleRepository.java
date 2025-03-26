@@ -1,8 +1,8 @@
-package com.example.bustimingapp.repository;
+package com.lca.bussearch.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.bustimingapp.entity.Schedule;
+import com.lca.bussearch.entity.Schedule;
 
 import java.util.List;
 

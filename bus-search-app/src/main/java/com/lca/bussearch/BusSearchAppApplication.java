@@ -1,4 +1,4 @@
-package com.example.bustimingapp;
+package com.lca.bussearch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.example.bustimingapp.repository;
+package com.lca.bussearch.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.bustimingapp.entity.Bus;
+import com.lca.bussearch.entity.Bus;
 
 public interface BusRepository extends JpaRepository<Bus, Long> {}

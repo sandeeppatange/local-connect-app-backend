@@ -1,8 +1,8 @@
-package com.example.bustimingapp.controller;
+package com.lca.bussearch.controller;
 
 import org.springframework.web.bind.annotation.*;
-import com.example.bustimingapp.repository.RouteStopRepository;
-import com.example.bustimingapp.entity.RouteStop;
+import com.lca.bussearch.repository.RouteStopRepository;
+import com.lca.bussearch.entity.RouteStop;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package com.example.bustimingapp.controller;
+package com.lca.bussearch.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-import com.example.bustimingapp.entity.Bus;
-import com.example.bustimingapp.repository.BusRepository;
+import com.lca.bussearch.entity.Bus;
+import com.lca.bussearch.repository.BusRepository;
 
 import java.util.List;
 

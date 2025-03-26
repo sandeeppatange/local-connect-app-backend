@@ -1,4 +1,4 @@
-package com.example.bustimingapp.entity;
+package com.lca.bussearch.entity;
 
 import jakarta.persistence.*;
 
@@ -11,13 +11,22 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class Location {
-    public Location(String name) {
-        this.name = name;
-    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    
+    private String postalCode;
+    private String placeName;
+    private String taluka;
+    private String district;
+    private String state;
+    private Integer talukaCode;
+    private Integer districtCode;
+    private String stateCode;
+    private String countryCode;
+    private Double latitude;
+    private Double longitude;
+    private Integer accuracy;
 
     // Getters and Setters
 }
