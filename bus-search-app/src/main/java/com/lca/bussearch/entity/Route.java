@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor 
 @AllArgsConstructor
 @Entity
+@Table(name = "route", schema = "bus_search")
 public class Route {
 
     public Route(Location source, Location destination) {

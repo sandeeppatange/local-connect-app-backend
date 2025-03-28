@@ -58,21 +58,22 @@ cd local-connect-app/bus-search-app
 Ensure PostgreSQL is installed and create a database:
 
 ```sql
-CREATE DATABASE bus_db;
+create schema if not exists bus_search;
 ```
 
 ### **3️⃣ Update `application.properties`**
 
-Modify `bus-timing-app/src/main/resources/application.properties`:
+Modify `bus-search-app/src/main/resources/application.properties`:
 
 ```properties
 # PostgreSQL Configuration
-spring.datasource.url=jdbc:postgresql://localhost:5432/bus_db
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+spring.datasource.url=jdbc:postgresql://localhost:5432/local_connect_db
+spring.datasource.username=postgres
+spring.datasource.password=admin
 spring.jpa.hibernate.ddl-auto=update
+spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.show-sql=true
+spring.jpa.show-sql=false
 ```
 
 ### **4️⃣ Build & Run the Application**

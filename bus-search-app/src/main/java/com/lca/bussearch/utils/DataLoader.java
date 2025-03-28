@@ -107,13 +107,12 @@ public class DataLoader implements CommandLineRunner {
             return;
         }
 
+        List<Location> locations = locationRepository.findAll();
         // Fetch some locations to create sample routes
-        if (locationCount < 5) {
+        if (locations.size() < 5) {
             System.err.println("❌ Not enough locations in the database to create routes.");
             return;
         }
-
-        List<Location> locations = locationRepository.findAll();
         Location cityCenter = locations.get(0);
         Location mainStreet = locations.get(1);
         Location airport = locations.get(2);

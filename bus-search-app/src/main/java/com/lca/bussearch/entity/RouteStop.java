@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @Data 
 @NoArgsConstructor
 @Entity
+@Table(name = "route_stop", schema = "bus_search")
 public class RouteStop {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

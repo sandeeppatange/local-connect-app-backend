@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor 
 @AllArgsConstructor
 @Entity
+@Table(name = "schedule", schema = "bus_search")
 public class Schedule {
 
     public Schedule(Bus bus, Route route, String departureTime, String arrivalTime, String weekDays) {
